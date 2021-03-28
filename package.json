@@ -1,0 +1,11 @@
+{
+  "name": "dts-proa-progate-b05",
+  "version": "1.0.0",
+  "description": "DTS-PROA-PROGATE. Projet 01. Latihan HTML&CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@aikazm",
+  "license": "ISC"
+}

@@ -1,0 +1,114 @@
+/* desktop */
+@media only screen and (min-width: 992px) {
+  section {
+    height: 100vh;
+  }
+
+  #destination .wrapper {
+    margin: 0;
+  }
+
+  #gallery .wrapper {
+    margin: 10vh 0;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+}
+
+/* tablet */
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  /* header */
+
+  nav ul li a {
+    padding: 0;
+    display: none;
+  }
+
+  #hero h1 {
+    font-size: 3rem;
+  }
+  #hero {
+    height: 50vh;
+  }
+
+  .container-hero {
+    width: 70%;
+  }
+
+  /* about */
+  #about {
+    height: max-content;
+  }
+
+  /* destination */
+  #destination .card {
+    width: 40%;
+    margin: 5%;
+  }
+
+  .card .txt {
+    margin-top: -7vh;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+  /* Hero */
+  #hero {
+    height: 100vh;
+  }
+  #hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3vh;
+  }
+
+  /* About */
+
+  .container.about {
+    margin: 5vh auto;
+    width: 80%;
+  }
+
+  .col.about-img {
+    display: none;
+  }
+
+  /* Destination */
+  #destination {
+    margin-bottom: 5%;
+  }
+
+  #destination .card {
+    width: 60%;
+    margin: 5%;
+  }
+
+  .card {
+    width: 100%;
+    margin: 3% 0;
+  }
+
+  .card .txt {
+    margin-top: -9vh;
+  }
+
+  #gallery .card {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* Footer */
+  footer .container {
+    display: inline-block;
+  }
+
+  footer .col {
+    margin: 2% 0;
+  }
+}

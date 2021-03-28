@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Rubik:wght@700&display=swap");
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  overflow-x: hidden;
+  color: #050504;
+}
+
+h1,
+h2 {
+  font-family: "Rubik", sans-serif;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.logo a {
+  color: #050504;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+p,
+ul li {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  word-spacing: 0.2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 7%;
+}
+
+.col {
+  flex: 1;
+}
+
+/* Header */
+
+header {
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(247, 247, 247, 0.11);
+  color: #000;
+}
+
+.scrolling-active {
+  background-color: #fff;
+  box-shadow: 0 6px 10px -2px rgba(0, 0, 0, 0.1);
+  transition: 1s;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 70px;
+  z-index: 1;
+}
+
+nav ul li a {
+  padding: 0 3.8rem;
+  color: #050504;
+}
+
+nav ul li a:hover {
+  color: #df7f1f;
+}
+
+.nav-btn {
+  font-size: 2rem;
+  background: transparent;
+  border: transparent;
+  outline: none;
+  color: var(--whiteColor);
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.nav-btn:hover {
+  transform: scale(1.15);
+}
+
+/* hero */
+.logo {
+  height: 12vh;
+  padding: 10px;
+}
+#hero {
+  background-image: url(/img/raja-ampat.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-hero {
+  position: absolute;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 3.5rem;
+}
+
+#hero p {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.btn {
+  background-color: #df7f1f;
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.btn a {
+  color: #fff;
+}
+
+/* About */
+#about {
+  height: max-content;
+}
+
+.container.about {
+  padding: 0;
+}
+
+.container.about .col img {
+  width: 80%;
+}
+
+.container.about .col.txt {
+  padding-right: 7%;
+}
+
+.col.txt h2 {
+  margin-bottom: 2%;
+}
+
+/* Destination */
+.wrapper {
+  text-align: center;
+}
+
+#destination .wrapper {
+  margin: 5vh 0;
+}
+
+#destination .container {
+  width: 85%;
+  margin: 2% auto;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.section-name {
+  color: #df7f1f;
+}
+
+.card {
+  width: 20%;
+  box-shadow: 0 6px 20px -2px rgba(0, 0, 0, 0.1);
+  margin: 2% 0;
+  border-radius: 15px;
+  text-align: left;
+  background-color: #ddd;
+}
+
+.card:hover {
+  transform: translate(0px, -10px);
+  box-shadow: 0 6px 32px -2px rgba(0, 0, 0, 0.1);
+  transition: 1s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.card .txt {
+  margin-top: -10vh;
+  padding: 5%;
+  background-color: #fff;
+  opacity: 0.6;
+  color: #000;
+}
+
+/* Gallery */
+
+#gallery .container {
+  width: 85%;
+  margin: 2% auto;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: space-around;
+}
+
+#gallery .card {
+  width: 30%;
+}
+
+#gallery .card img {
+  width: 100%;
+  border-radius: 0;
+}
+
+/* Footer */
+footer .container {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 2px solid #050504;
+}
+
+.col.nav ul li a {
+  color: #050504;
+}
+
+.col.nav ul li a:hover {
+  color: #df7f1f;
+}
+
+.col.nav ul li {
+  line-height: 30px;
+}
+
+.copyright {
+  background-color: #050504;
+  color: #fff;
+  text-align: center;
+  padding: 1% 0;
+}
