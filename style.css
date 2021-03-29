@@ -132,7 +132,7 @@ nav ul li a:hover {
   padding: 10px;
 }
 #hero {
-  background-image: url(/img/raja-ampat.jpg);
+  background-image: url(./img/raja-ampat.jpg);
   background-size: cover;
   background-position: center;
 }
